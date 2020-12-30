@@ -1,7 +1,18 @@
-<h1>Météo</h1>
-
+<head>
+  <meta http-equiv="refresh" content="300">
+  <link rel="stylesheet" href="css.css">
+</head>
+<body>
+<a class="weatherwidget-io" href="https://forecast7.com/fr/48d722d42/ablon-sur-seine/" data-label_1="ABLON-SUR-SEINE" data-icons="Climacons Animated" data-theme="dark" style="zoom: 2;" >ABLON-SUR-SEINE</a>
+</body>
 <script>
-  wait(10000);
-  window.location = "http://www.mozilla.org";
-  window.location.reload(true);
+!function(d,s,id){
+	var js,fjs=d.getElementsByTagName(s)[0];
+	if(!d.getElementById(id)){
+		js=d.createElement(s);
+		js.id=id;
+		js.src='https://weatherwidget.io/js/widget.min.js';
+		fjs.parentNode.insertBefore(js,fjs);
+	}
+}(document,'script','weatherwidget-io-js');
 </script>
