@@ -4,6 +4,6 @@ body {
 a {
   color:white; text-decoration:none;
 }	
-p {
+p, h1 {
     color:white;
 }
